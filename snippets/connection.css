@@ -1,0 +1,23 @@
+.connection {
+    border: 1px solid var(--tertiary-color);
+    margin: -0.5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--secondary-color);
+    background-color: rgba(255,255,255,0.45);    
+    box-shadow: inset 0px 0px 10px 1px rgb(0,0,0,0.05);
+    color: var(--tertiary-color);
+    width: 100%;
+}
+
+
+.connection__dot {
+    width: calc(100% - 3rem);
+    height: calc(100% - 3rem);
+    background-color: var(--tertiary-color);
+    border-radius: 100%;
+    margin-top: -1px;
+    box-shadow: 0 0 1rem 1rem var(--tertiary-color);
+}

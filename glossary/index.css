@@ -1,0 +1,77 @@
+.glossary {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    cursor: pointer;
+    color: var(--tertiary-color);
+}
+
+@media (max-width: 800px) {
+    .glossary {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+.glossary li {
+    border: 1px solid var(--secondary-color);
+    box-shadow: inset 0px 0px 10px 1px rgb(0,0,0,0.05);    position: relative;
+    margin: -0.5px;
+}
+
+.glossary__title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
+.glossary__text {
+    margin: 0.5rem;
+    opacity: 0%;
+    cursor: pointer;
+}
+
+/* .glossary > li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: -1px;
+    border-radius: 0.5rem;
+} */
+
+.glossary li:hover {
+    opacity: 100%;
+    background-color: rgba(255,255,255,0.45);    
+}
+
+.glossary li:hover > .glossary__text {
+    opacity: 100%;
+}
+
+.glossary li:hover > .glossary__title {
+    opacity: 0%;
+}
+
+.main {
+    width: 100%;
+    padding: calc(2.2rem - 1px);
+}
+
+.main__hero {
+    height:  calc( 100dvh - 4.3rem - 1px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    box-shadow: inset 0px 0px 10px 1px rgb(0,0,0,0.05);
+}
+
+
+

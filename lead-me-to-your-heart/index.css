@@ -1,0 +1,80 @@
+
+.container {
+    position: relative;
+    border: 1px solid var(--secondary-color);
+    /* background-color: rgba(255,255,255,0.45);     */
+    box-shadow: inset 0px 0px 10px 1px rgb(0,0,0,0.05); 
+    width: 100%;
+    height: 100%;
+}
+ 
+ 
+ .compass {
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 1;
+    max-height: 100%;
+    max-width: 100%;
+
+  }
+
+  
+
+  .compass-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: var(--color);
+    transition: transform 0ms ease-out;
+    box-shadow: inset 0px 0px 35px 12px var(--secondary-color);
+    background-color: rgba(255,255,255,0.45);    
+
+  }
+
+  .compass-arrow {
+    position: absolute;
+    width: 15px;
+    height: auto;
+    transform: translateX(-50%);
+    top:0;
+    left: 50%;
+    display: none;
+  }
+
+  .compass-line {
+    position: absolute;
+    width: 1px;
+    background-color: var(--tertiary-color);
+    height: 50%;
+    top:0;
+    left: 50%;
+  }
+
+  .compass-aim {
+    position: absolute;
+    background-color:rgb(228, 112, 63);
+    width: 1px;
+    height: 20px;
+    top:0;
+    left: 50%;
+  }
+
+
+  .main {
+    width: 100%;
+    padding: calc(2.2rem - 1px);
+}
+
+.main__hero {
+    height:  calc( 100dvh - 4.3rem - 1px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    box-shadow: inset 0px 0px 10px 1px rgb(0,0,0,0.05);
+}

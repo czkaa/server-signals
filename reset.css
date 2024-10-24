@@ -1,0 +1,78 @@
+
+  * {
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: "Erika";
+    src: url("/assets/fonts/G2-Erika-Regular.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "ABCSynt";
+    src: url("/assets/fonts/Synt.otf") format("opentype");
+  }
+
+
+  :root {
+    --primary-color: #aaa7a3;
+    --secondary-color: #d9d5d0;
+    --tertiary-color:rgb(255, 113, 61);
+    --text-base: min(4vw, 24px);
+    }
+    
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: ABCSynt;
+  }
+ 
+  
+  ul,
+  ul li {
+     margin:0;
+     padding: 0;
+     text-indent: 0;
+     list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--pri-color);
+  }
+
+  h1,h2, h3 {
+    font-weight: normal;
+    text-align: center;
+  }
+
+  strong {
+    font-weight: normal;
+  }
+
+  button {
+    color: var(--primary-color);
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+    margin: 0rem;
+    font-size: var(--text-base);
+  }
+  
+
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}
