@@ -1,5 +1,5 @@
 <div class="connection">
-    <span>network type</span>
+    <span>Network Type</span>
 
-    <span>wireless </span>
+    <span>Wireless </span>
 </div>

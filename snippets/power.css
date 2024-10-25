@@ -10,13 +10,19 @@
     box-shadow: inset 0px 0px 10px 1px rgb(0,0,0,0.05);
     color: var(--tertiary-color);
     width: 100%;
+    position: relative;
 }
 
 
-.power__dot {
-    width: calc(100% - 1rem);
-    height: calc(100% - 1rem);
-    border: 1px solid var(--secondary-color);
-    border-radius: 100%;
-    margin-top: -1px;
+
+.power__bar {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    background: var(--tertiary-color);
+    border-radius: 0;
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 0.5rem 0.5rem var(--tertiary-color);
 }

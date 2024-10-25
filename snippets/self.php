@@ -1,20 +1,17 @@
 <div class="self">
-    <div class="index">(1)</div>
-
-    <ul>
-        <li>
-            Raspberry Pi 4 Model B
-        </li>
-        <li>
-            LTE GPS HAT - NB-IoT / LTE / GPRS / GPS SIM7000E Waveshare 14865
-        </li>
-        <li>
-            Pi Supply Pi Juice Zero pHat
-        </li>
-        <li>    
-            SIM card
-        </li>
-        <li>
-        </li>   
-    </ul>
+    <img class="self__image" src="/assets/img/Ebene 0.png" />
+    <img class="self__image" src="/assets/img/Ebene 1.png" />
+    <img class="self__image" src="/assets/img/Ebene 2.png" />
+    <img class="self__image" src="/assets/img/Ebene 3.png" />
+    <img class="self__image" src="/assets/img/Ebene 4.png" />
+    <img class="self__image" src="/assets/img/Ebene 5.png" />
+    <img class="self__image" src="/assets/img/Ebene 6.png" />
+    <img class="self__image" src="/assets/img/Ebene 7.png" />
+    <img class="self__image" src="/assets/img/Ebene 8.png" />
+    <img class="self__image" src="/assets/img/Ebene 9.png" />
+    <img class="self__image" src="/assets/img/Ebene 10.png" />
+    <img class="self__image" src="/assets/img/Ebene 111.png" />
+    <div class="self__overlay"></div>
 </div>
+
+<script src="./snippets/self.js"></script>

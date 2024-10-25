@@ -20,11 +20,6 @@
   <link rel="stylesheet" href="snippets/distance.css">
   <link rel="stylesheet" href="snippets/location.css">
 
-
-  <!-- <link rel="stylesheet" href="glossary.css">
-  <link rel="stylesheet" href="map.css">
-  <link rel="stylesheet" href="links.css"> -->
-
 </head>
 <body>
 

@@ -1,4 +1,6 @@
 <div class="power">
-    <span>power</span>
-    <span>10%</span>    
+    <span>Power</span>
+    <span>12%     
+        <!-- <div class="power__bar"></div>    -->
+    </span> 
 </div>

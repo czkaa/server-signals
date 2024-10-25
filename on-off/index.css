@@ -14,25 +14,25 @@
     border: 1px solid var(--secondary-color);
     border-radius: 1000px;
     width: 100%;
-    height: 100%;
-    margin: 0 1rem;
-    height: 5rem;
+    /* margin: 0 1rem; */
+    height: min(50vh, 50vw);
     overflow: hidden;
     position: relative;
     background-color: rgba(255,255,255,0.45);    
+    box-shadow: inset 0px 0px 10px 1px rgb(0,0,0,0.05);
 }
 
 .restart__button span {
-    width: 4rem;
-    height: 4rem;
+    width: calc(min(50vh, 50vw) - 1.5rem);
+    height: calc(min(50vh, 50vw) - 1.5rem);
     display: inline-block;
     background-color: var(--tertiary-color);
     border-radius: 100%;
     margin-top: -1px;
     box-shadow: 0 0 0.5rem 0.5rem var(--tertiary-color);
     position: absolute;
-    left: 0.5rem;
-    top: 0.5rem;
+    left: 0.75rem;
+    top: 0.75rem;
 }
 
 .main {
@@ -46,5 +46,4 @@
     display: flex;
     flex-direction: column;
     overflow: scroll;
-    box-shadow: inset 0px 0px 10px 1px rgb(0,0,0,0.05);
 }
